@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Chicos, buenos días. El desafío del tema de objetos literales en JS, es el siguiente: 
+La escuela, PequeñosGamberritos, quiere almacenar los datos de sus estudiantes los cuales serían: Nombre, Curso, Genero. Además quiere registrar las notas de las 3 materias de esos estudiantes. 
+Haciendo uso del HTML, CSS y JAVASCRIPT (funciones, arreglos, DOM, localstorage,etc.) Debe permitir
+Almacenar los datos de los estudiantes.
+Mostrar el nombre de los estudiantes con el promedio de sus notas
+Mostrar los estudiantes que aprobaron y no aprobaron. Un estudiante aprueba, si el promedio de sus notas, es >=3.5.
+Debe tenerse en cuenta que las notas deben estar entre 0 y 5deben estar entre 0 y 5. -->
+    <h1 class="title">La escuela PequeñosGamberritos</h1>
+
+
+        <form action="" class="formularioGeneral">
+            <div class="contenedorInputs1">
+                <div class="contenerInput">
+                    <label for="">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="contenerInput">
+                    <label for="">Curso</label>
+                    <input type="text" id="curso">
+                </div>
+                <div class="contenerInput">
+                    <label for="">Genero</label>
+                    <input type="text" id="genero">
+                </div>
+            </div>
+            <div class="contenedorInputs2">
+                <p class="ingresaNotas">Ingresa las notas</p>
+                <div class="contenerInput">
+                    <label for="">Nota materia 1</label>
+                    <input type="number" id="nota1">
+                </div>
+                <div class="contenerInput">
+                    <label for="">Nota materia 2</label>
+                    <input type="number" id="nota2">
+                </div>
+                <div class="contenerInput">
+                    <label for="">Nota materia 3</label>
+                    <input type="number" id="nota3">
+                </div>
+            </div>
+            <div class="contenedorBotones">
+                <button class="btnAgragar" id="agregar">Agregar</button>
+                <button class="btnMostrar" id="monstrar">Mostrar</button>
+            </div>
+        </form>
+        <table id="tabla" class="tabla">
+            <tr class="encabezadoTabla">
+                <!-- <th>Nombre</th>
+                <th>curso</th>
+                <th>Genero</th>
+                <th>Promedio</th>
+                <th>Calificacion Final</th>
+            </tr>
+            <tr>
+                <td>${lista[i].Nombre}</td>
+                <td>${lista[i].Curso}</td>
+                <td>${lista[i].Genero}</td>
+                <td>${promedio}</td>
+                <td>${calificacionFinal}</td>
+            </tr> -->
+        </table>  
+
+
+        <script src="./main.js"></script>
+</body>
+</html>
